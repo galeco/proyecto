@@ -1,0 +1,107 @@
+h1 {
+  font-size:400%;
+   text-align:center;
+    color:red;
+    -webkit-text-stroke: 2px black;
+}
+.content {
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    color: white;
+}
+body, html {
+  height: 100%;
+}
+body {
+    background-image:url("htmlejercicio/IMAGENES/limbo.JPG");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: scroll;
+    margin:0px;
+    padding: 0px;
+    }
+
+    p{
+        font-size: 25px;
+        
+    }
+ 
+.cabecera{
+    margin-top:-20px;
+    background-color: #ffffff2f;
+    text-align:center;
+    line-height: 2rem;
+    color: #ffffff;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+h2 {
+    text-align:center;
+}
+.listaO{
+    font-variant-numeric: oldstyle-nums;
+   color:white;
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+}
+.listaD{
+    font-variant-numeric: oldstyle-nums;
+    color:white;
+     align-items:center;
+     display:flex;
+     flex-direction:column;
+     margin-top:-30px;
+}
+
+a{
+    color:lightgreen;
+}
+
+a:hover{
+    color:blue;
+}
+a:visited{
+    color:red;
+}
+a:active{
+    color:black;
+}
+td {
+   color:white;
+}
+.contenedor{
+  padding: 0 6rem;
+  background-color:#16161660; 
+}
+.contenedor-flex{
+  display: flex;
+  width: 100%;
+}
+.flex-1{
+ display: absolute;
+  left: 0;
+}
+.flex-2{
+  font-size:140%;
+  margin-top:5%;
+  width: 100%;
+  margin-left:11%;
+}
+.flex-3{
+  display: absolute;
+  right: 0;
+}
+.flex-2 td{
+  padding: 8px 16px;
+}
+
+
+
+
+
+
